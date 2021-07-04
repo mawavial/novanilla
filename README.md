@@ -1,8 +1,8 @@
 ## Introduction
 
-This is a simple project, built from the ground up. It's pretty common for a developer spend it's career creating new features on project, giving support to it, and so on.
+This is a simple project, built from the ground up. It's pretty common for a developer to spend it's career creating new features on a project or multiple projects, supporting, refactoring, and so on.
 
-Latetly I've been using the MERN stack. As a team leader I'm responsible for hiring process where I work. The basic code challenge I usually assign to candidates is a MERN stack CRUD. It's part of the process to give everyone who sent us their code a feedback. It usually takes like 2 hours with a candidate, I like to make them confortable. It does not matter if the candidate code doesn't run. That person will soon be in the business, if not with us, on somewhere else. So the feedback is something they can take from that experience. And my hope is that they will improve for code challenges they might face in the future.
+Latetly I've been using the MERN stack. As a team leader I'm responsible for the technical part of the hiring process, on where I work. The basic code challenge I usually assign to candidates is a MERN stack CRUD. It's part of the process to give everyone who sent us their code a feedback. It usually takes like 2 hours with a candidate, I like to make them confortable. It does not matter if the candidate code doesn't run. That person will soon be in the business, if not with us, on somewhere else. So the feedback is something they can take from that experience. And my hope is that they will improve for code challenges they might face in the future.
 
 That being said. After so many code reviews I perceived some common mistakes that entry level developers tend to do:
 
