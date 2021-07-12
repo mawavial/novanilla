@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import NewTodoForm from "./NewTodoForm";
 import TodoListItem from "./TodoListItem";
-import "./TodoList.css";
+import styled from 'styled-components';
 import { connect } from "react-redux";
 import {
   loadTodos,
@@ -10,6 +10,26 @@ import {
 } from "../store/thunks";
 import { getTodos, getTodosLoading } from "../store/selectors";
 import { getCompletedTodos, getIncompleteTodos } from "../store/selectors";
+
+
+
+const BigRedText =  styled.div`
+height: 90px;  
+font-size:48px;
+  color: #ff0000;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  box-shadow: 0 4px 8px grey;
+  
+`
+const ListWrapper = styled.div`
+  max-width: 700px;
+  margin: auto;
+`
+
 
 const TodoList = ({
   completedTodos,
@@ -28,7 +48,8 @@ const TodoList = ({
 
   const loadingMessage = <div>Loading todos</div>;
   const content = (
-    <div className="list-wrapper">
+    <ListWrapper>
+      <BigRedText>What you got do?</BigRedText>
       <NewTodoForm />
       <h3>Incomplete:</h3>
       {incompletedTodos?.map((todo, index) => (
@@ -48,7 +69,7 @@ const TodoList = ({
           onCompletedPressed={onCompletedPressed}
         />
       ))}
-    </div>
+    </ListWrapper>
   );
   return isLoading ? loadingMessage : content;
 };
