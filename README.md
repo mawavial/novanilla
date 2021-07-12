@@ -33,5 +33,4 @@ if you are not affraid :)
 
 * Configure production build
 * Refact styled components into own dir
-* Unit testing
 
