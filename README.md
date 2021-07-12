@@ -31,7 +31,7 @@ if you are not affraid :)
 
 ## TODO LIST:
 
-* Create forms
 * Configure production build
-* Add styled-components
+* Refact styled components into own dir
+* Unit testing
 
